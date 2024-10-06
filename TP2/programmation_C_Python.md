@@ -1,6 +1,6 @@
 Comparatif : Programmation en C et Python
-* * 1. Débogage
-C (gdb)
+*  1. Débogage
+C (gdb) *
 Le débogage en C avec gdb nécessite la compilation avec -g pour inclure les symboles de débogage. gdb permet de placer des points d'arrêt, d'exécuter le code pas à pas et d'inspecter les variables et la mémoire. C'est un outil puissant mais complexe pour les débutants.
 
 Python (pdb)
