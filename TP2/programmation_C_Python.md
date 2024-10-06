@@ -1,5 +1,5 @@
 # Comparatif : Programmation en C et Python
-1. Débogage
+## 1. Débogage
 C (gdb)
 Le débogage en C avec gdb nécessite la compilation avec -g pour inclure les symboles de débogage. gdb permet de placer des points d'arrêt, d'exécuter le code pas à pas et d'inspecter les variables et la mémoire. C'est un outil puissant mais complexe pour les débutants.
 
@@ -9,7 +9,7 @@ En Python, pdb est intégré et plus facile d'utilisation. Il permet aussi d'ex�
 Comparaison
 gdb offre un contrôle bas-niveau sur la mémoire, mais pdb est plus simple et rapide à utiliser pour déboguer des scripts Python.
 
-2. Chaîne de Compilation
+## 2. Chaîne de Compilation
 C (gcc)
 Le processus de compilation en C comprend plusieurs étapes : prétraitement, compilation, assemblage, et édition des liens. Cela offre un contrôle total sur le code et les optimisations.
 
@@ -19,7 +19,7 @@ Python est interprété et ne nécessite pas de compilation explicite. Le code e
 Comparaison
 C nécessite une chaîne de compilation complexe, tandis que Python offre un développement plus rapide mais avec moins d'optimisation.
 
-3. Inspection de Code
+## 3. Inspection de Code
 C
 Les outils comme objdump permettent d'examiner le code machine généré après compilation. Cela demande une bonne connaissance de l'architecture matérielle.
 
@@ -29,7 +29,7 @@ En Python, dis permet d'inspecter le bytecode produit par l'interpréteur. C'est
 Comparaison
 L'inspection du code machine en C est plus bas-niveau, tandis que Python permet une inspection plus facile mais moins détaillée.
 
-4. Manipulation de Chaînes
+## 4. Manipulation de Chaînes
 C
 En C, les chaînes sont des tableaux de caractères manipulés via des fonctions comme strcpy et strcat. Cela nécessite une gestion manuelle de la mémoire et peut entraîner des erreurs (dépassement de tampon).
 
@@ -39,7 +39,7 @@ En Python, les chaînes sont des objets avec des méthodes intégrées (comme re
 Comparaison
 C offre plus de contrôle, mais Python est plus simple et sécurisé pour manipuler des chaînes.
 
-5. Gestion des Données et Recherche dans les Fichiers
+## 5. Gestion des Données et Recherche dans les Fichiers
 C
 Les structures en C sont utilisées pour organiser des données complexes. L'accès aux fichiers est géré manuellement avec des fonctions comme fopen et fgets. Cela permet une gestion fine des ressources.
 
