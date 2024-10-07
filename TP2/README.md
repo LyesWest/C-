@@ -9,14 +9,13 @@
 * `import random` : Génération de valeurs aléatoires (dans certains scripts).          
 
 # Références:               
-* groupe..               
-* http://www.example.com               
-* ..              
+* groupe de Cedric Darmaisin et Adel Ayadi               
+* http://www.wikipedia.org          
+* https://openclassroom.com           
 
 # Difficulté: ..               
-* ..              
+* Utilisation des boucles en C
+* Découverte de struct
 
 # Commentaires               
-* commentaire 1               
-* commentaire 2               
-* ..             
+* 
