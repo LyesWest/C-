@@ -1,7 +1,11 @@
-# Bibliothèques:               
+# Bibliothèques:
+* C :
 * stdio.h               
 * limits.h
-* stdbool.h        
+* stdbool.h
+* Python:
+* import sys
+* import math
 
 # Références:               
 * groupe de Ronan Fourneuve         
