@@ -21,7 +21,8 @@
     TutorialsPoint C : Tutoriels détaillés sur le C avec des exemples de code et des explications.
 
     C Programming on GeeksforGeeks : Guides de programmation, articles détaillés et astuces sur divers concepts de C.              
-      
+
+* ChatGPT 
 
 # Difficulté:             
 * Exercice de la double boucle pour faire le sapin nous a posé pas mal de problème
