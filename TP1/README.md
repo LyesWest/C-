@@ -3,14 +3,11 @@
 * ..              
 
 # Références:               
-* groupe..               
+* groupe de Ronan Fourneuve         
 * http://www.example.com               
-* ..              
+      
 
 # Difficulté: ..               
 * ..              
 
-# Commentaires               
-* commentaire 1               
-* commentaire 2               
-* ..             
+        
