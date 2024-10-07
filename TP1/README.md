@@ -9,7 +9,9 @@
 * Pour Python :
 
     Python Documentation : Documentation officielle de Python pour les fonctionnalités, modules, et guides de référence.
+  
     Real Python : Tutoriels approfondis, astuces de code et guides pratiques pour les développeurs Python.
+  
     Programiz Python : Tutoriels structurés pour apprendre Python, avec des exemples et des explications claires.
 
 * Pour C :
