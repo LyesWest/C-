@@ -1,10 +1,15 @@
 # Bibliothèques:
 * C:
- stdio.h               
+ stdio.h
+          
  limits.h
+
  stdbool.h
+
 * Python:
+
  import sys
+ 
  import math
 
 # Références:               
