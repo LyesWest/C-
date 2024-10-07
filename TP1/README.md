@@ -36,7 +36,7 @@
 * ChatGPT 
 
 # Difficulté:             
-* Exercice de la double boucle pour faire le sapin nous a posé pas mal de problème
+* Exercice de la double boucle pour faire le sapin nous a posé pas mal de problème sinon des difficultés rencontrés avec l'apprentissage du C, la déclaration des variables et leur affichage, un peu moins en python car on en avait déja fait dans le passée
              
 
         
