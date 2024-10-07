@@ -11,7 +11,8 @@
 # Références:               
 * groupe de Cedric Darmaisin et Adel Ayadi               
 * http://www.wikipedia.org          
-* https://openclassroom.com           
+* https://openclassroom.com
+* chatgpt.com          
 
 # Difficulté: ..               
 * Utilisation des boucles en C
