@@ -18,5 +18,3 @@
 * Utilisation des boucles en C
 * Découverte de struct
 
-# Commentaires               
-* 
