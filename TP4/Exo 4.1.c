@@ -1,3 +1,67 @@
+#include <stdio.h>
+#include <ctype.h>
+#include <string.h>
+
+#define MAX_STACK_SIZE 100
+#define MAX_OUTPUT_SIZE 1024
+
+// Structure de pile pour les opérateurs
+typedef struct {
+    char items[MAX_STACK_SIZE];
+    int top;
+} Stack;
+
+// Initialiser la pile
+void init_stack(Stack *s) {
+    s->top = -1;
+}
+
+// Vérifier si la pile est vide
+int is_empty(Stack *s) {
+    return s->top == -1;
+}
+
+// Empiler un élément
+void push(Stack *s, char item) {
+    if (s->top < MAX_STACK_SIZE - 1) {
+        s->items[++s->top] = item;
+    }
+}
+
+// Dépiler un élément
+char pop(Stack *s) {
+    if (!is_empty(s)) {
+        return s->items[s->top--];
+    }
+    return '\0';
+}
+
+// Obtenir l'élément au sommet de la pile
+char peek(Stack *s) {
+    if (!is_empty(s)) {
+        return s->items[s->top];
+    }
+    return '\0';
+}
+
+// Définir la priorité des opérateurs
+int precedence(char op) {
+    if (op == '+' || op == '-') {
+        return 1;
+    } else if (op == '*' || op == '/') {
+        return 2;
+    }
+    return 0;
+}
+
+// Fonction pour vérifier si un caractère est un opérateur
+int is_operator(char c) {
+    return c == '+' || c == '-' || c == '*' || c == '/';
+}
+
+// Fonction pour convertir une expression infixée en notation postfixée
+void infix_to_postfix(const char *infix, char *postfix) {
+    Stack s;
     init_stack(&s);
     int j = 0;
 
